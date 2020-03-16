@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1350
     height: 670
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 81
+  controlID: 143
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 82
+  controlID: 83
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 83
+  controlID: 84
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,8 +215,8 @@ MonoBehaviour:
     y: 0
     width: 395
     height: 336
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -439,7 +439,7 @@ MonoBehaviour:
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 1
+    m_FxEnabled: 0
   m_Grid:
     xGrid:
       m_Fade:
@@ -471,11 +471,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0028019208, y: -0.34835237, z: -0.001075025, w: -0.9373904}
     speed: 2
-    m_Value: {x: 0.0056010475, y: -0.3539551, z: -0.0021537682, w: -0.93524325}
+    m_Value: {x: 0.0028018379, y: -0.34834206, z: -0.0010749932, w: -0.9373627}
   m_Size:
     m_Target: 1.6330733
     speed: 2
-    m_Value: 1.3330734
+    m_Value: 1.6330733
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -702,9 +702,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98360000
-    m_LastClickedID: 13976
-    m_ExpandedIDs: 000000009836000000ca9a3b
+    m_SelectedIDs: 9c360000
+    m_LastClickedID: 13980
+    m_ExpandedIDs: 000000009c36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -732,7 +732,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000098360000
+    m_ExpandedIDs: 000000009c360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 30510
+  m_LastSelectedObjectID: 13890
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
