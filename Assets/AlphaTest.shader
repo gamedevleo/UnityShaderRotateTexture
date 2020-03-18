@@ -9,14 +9,14 @@
     {
         // No culling or depth
         //Cull Off ZWrite Off 
-		//ZTest Always
+		ZTest Always
 		//Blend SrcAlpha OneMinusSrcAlpha
+		Tags { "RenderType" = "Opaque" "Queue" = "Transparent"}
         Pass
         {
-			ZTest Always
             CGPROGRAM
             #pragma vertex vert
-            #pragma fragment frag
+            #pragma fragment frag Lambert alpha
 
             #include "UnityCG.cginc"
 
@@ -47,15 +47,18 @@
             {
                 fixed4 col = tex2D(_MainTex, i.uv);
                 // just invert the colors
-                //col.rgb = 1 - col.rgb;
+        
 			if (col.a < _Alpha)
 			{
-				return fixed4(0,0,0,0);
+				col.rgb = 1 - col.rgb;
+				return col.a = 0;
 			}
 			else
 			{
+				col.rgb = 1 - col.rgb;
 				return col;
 			}
+			col.rgb = 1 - col.rgb;
 
 			return col;
             }

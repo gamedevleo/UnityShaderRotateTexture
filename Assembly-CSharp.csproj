@@ -64,7 +64,10 @@
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\RotateTexture.shader" />
+     <None Include="Assets\StencilTest\Middle.shader" />
+     <None Include="Assets\StencilTest\Back.shader" />
      <None Include="Assets\AlphaTest.shader" />
+     <None Include="Assets\StencilTest\Front.shader" />
      <None Include="Assets\Outline.shader" />
      <None Include="Assets\Blurring.shader" />
     <Reference Include="Unity.Timeline.Editor">
