@@ -9,7 +9,8 @@
     {
         // No culling or depth
         //Cull Off ZWrite Off ZTest Always
-
+		Blend SrcAlpha OneMinusSrcAlpha
+		Tags{ "Queue" = "Transparent"}
         Pass
         {
             CGPROGRAM

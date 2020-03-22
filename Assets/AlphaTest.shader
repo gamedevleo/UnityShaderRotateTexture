@@ -9,8 +9,8 @@
     {
         // No culling or depth
         //Cull Off ZWrite Off 
-		ZTest Always
-		//Blend SrcAlpha OneMinusSrcAlpha
+		//ZTest Always
+		Blend SrcAlpha OneMinusSrcAlpha
 		Tags { "RenderType" = "Opaque" "Queue" = "Transparent"}
         Pass
         {
@@ -50,17 +50,16 @@
         
 			if (col.a < _Alpha)
 			{
-				col.rgb = 1 - col.rgb;
+				
 				return col.a = 0;
 			}
 			else
 			{
-				col.rgb = 1 - col.rgb;
+				
 				return col;
 			}
-			col.rgb = 1 - col.rgb;
 
-			return col;
+			//return col;
             }
             ENDCG
         }
