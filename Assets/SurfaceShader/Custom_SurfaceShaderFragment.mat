@@ -24,11 +24,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Bright: 0.985
+    - _Bright: 0
     - _Glossiness: 0.5
     - _Metallic: 0
-    - _ScrollX: 100
-    - _ScrollY: 5
+    - _ScrollX: 1
+    - _ScrollY: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
