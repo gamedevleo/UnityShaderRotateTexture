@@ -41,10 +41,10 @@
 			
 			float NDotL = dot(lightDir, s.Normal);
 			half4 result = 0;
-			half3 H = viewDir - lightDir;
+			half3 H = viewDir + lightDir;
 			float HDotN = dot(H, s.Normal);
 			//diffuse + specular
-			result.rgb = s.Albedo*_LightColor0 * NDotL* atten+ HDotN*_LightColor0*s.Albedo*_SpecPower;
+			result.rgb = s.Albedo*_LightColor0 * NDotL* atten+HDotN*_LightColor0*s.Albedo*_SpecPower;
 			result.a = s.Alpha;
 			return result;
 		}

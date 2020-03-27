@@ -71,6 +71,7 @@
      <None Include="Assets\SurfaceShader\CustomLighting.shader" />
      <None Include="Assets\AlphaTest.shader" />
      <None Include="Assets\StencilTest\Front.shader" />
+     <None Include="Assets\SurfaceShader\NormalOutline.shader" />
      <None Include="Assets\SurfaceShader\Parameter.shader" />
      <None Include="Assets\Outline.shader" />
      <None Include="Assets\Blurring.shader" />
