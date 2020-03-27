@@ -5,7 +5,7 @@
         _Color ("Color", Color) = (1,1,1,1)
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
 		_NormTex("NormalMap",2D) = "white" {}
-		_Range("Range",Range(0,1)) =0
+		_Range("Range",Range(0,2)) =1
     }
     SubShader
     {

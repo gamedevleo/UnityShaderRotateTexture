@@ -69,6 +69,8 @@
      <None Include="Assets\StencilTest\Back.shader" />
      <None Include="Assets\Blend.shader" />
      <None Include="Assets\SurfaceShader\CustomLighting.shader" />
+     <None Include="Assets\SurfaceShader\CubeMap.shader" />
+     <None Include="Assets\SurfaceShader\CubeMapRefract.shader" />
      <None Include="Assets\AlphaTest.shader" />
      <None Include="Assets\StencilTest\Front.shader" />
      <None Include="Assets\SurfaceShader\NormalOutline.shader" />
