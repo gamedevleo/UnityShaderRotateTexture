@@ -67,6 +67,7 @@
      <None Include="Assets\StencilTest\Middle.shader" />
      <None Include="Assets\StencilTest\Back.shader" />
      <None Include="Assets\Blend.shader" />
+     <None Include="Assets\SurfaceShader\CustomLighting.shader" />
      <None Include="Assets\AlphaTest.shader" />
      <None Include="Assets\StencilTest\Front.shader" />
      <None Include="Assets\SurfaceShader\Parameter.shader" />
