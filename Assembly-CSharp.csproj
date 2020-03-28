@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\RotateTexture.shader" />
+     <None Include="Assets\SurfaceShader\SurfaceFog.shader" />
      <None Include="Assets\StencilTest\Middle.shader" />
      <None Include="Assets\SurfaceShader\NormalMap.shader" />
      <None Include="Assets\StencilTest\Back.shader" />
