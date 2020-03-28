@@ -79,6 +79,7 @@
      <None Include="Assets\SurfaceShader\Parameter.shader" />
      <None Include="Assets\Outline.shader" />
      <None Include="Assets\Blurring.shader" />
+     <None Include="Assets\SurfaceShader\BRDF.shader" />
      <None Include="Assets\SurfaceShader\SurfaceShader.shader" />
      <None Include="Assets\SurfaceShader\SurfaceShaderFragment.shader" />
     <Reference Include="Unity.Timeline.Editor">

@@ -33,7 +33,6 @@
   
             fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
             o.Albedo = c.rgb;
- 
             o.Alpha = c.a;
         }
 		half4 LightingSimple(SurfaceOutput s, half3 lightDir, half3 viewDir, half atten)
@@ -44,7 +43,7 @@
 			half3 H = viewDir + lightDir;
 			float HDotN = dot(H, s.Normal);
 			//diffuse + specular
-			result.rgb = s.Albedo*_LightColor0 * NDotL* atten+HDotN*_LightColor0*s.Albedo*_SpecPower;
+			result.rgb = s.Albedo*_LightColor0 * NDotL* atten + HDotN*_LightColor0*s.Albedo*_SpecPower;
 			result.a = s.Alpha;
 			return result;
 		}
